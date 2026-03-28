@@ -2,9 +2,11 @@ function loadNavbar(){
   const navContainer = document.getElementById('navbar');
 
   if(navContainer){
-    fetch('nav.html').then(response => response.text()).then(data => { navContainer.innerHTML = data;  
-                                                                     }).catch(error => console.error('Error loading navbar:', error));
+    fetch('nav.html').then(response => {
+      if(!response.ok) throw new Error('Network response was not ok');
+      return response.text();
+    }).catch(error => console.error('Error loading navbar:', error));
   }
 }
-window.addEventListener('load', loadNavbar);
+window.addEventListener('DOMContentLoaded', loadNavbar);
   
