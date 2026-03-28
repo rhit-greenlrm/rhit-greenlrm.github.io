@@ -1,25 +1,25 @@
 body{
-  background-color: #CHOOSE;
-  color: #CHOOSE;
+  background-color: #FFF0F5;
+  color: #4A4A4A;
   font-family: sans-serif;
   margin: 0;
   padding: 0;
 }
 
 nav{
-  background-color: #CHOOSE;
+  background-color: #FFC1CC;
   padding: 20px;
   text-align: center;
 }
 
 nav a{ 
-  color: #CHOOSE;
+  color: #FFC1CC;
   margin: 0 15px;
   font-weight: bold;
 }
 
 h1, h2{
-  color: #CHOOSE;
+  color: #FF91A4;
   text-align: center;
 }
 
