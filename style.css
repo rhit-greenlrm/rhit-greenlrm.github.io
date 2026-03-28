@@ -6,14 +6,33 @@ body{
   padding: 0;
 }
 
+img{
+  display:block;
+  margin: 20px auto;
+}
+
 nav{
   background-color: #FFC1CC;
   padding: 20px;
   text-align: center;
 }
 
+nav ul{
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style-position: inside;
+}
+
+nav li{
+  display: inline;
+  margin: 0 15px;
+  color: white;
+}
+
 nav a{ 
-  color: #FFC1CC;
+  color: white;
   margin: 0 15px;
   font-weight: bold;
 }
