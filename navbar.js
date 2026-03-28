@@ -6,5 +6,5 @@ function loadNavbar(){
                                                                      }).catch(error => console.error('Error loading navbar:', error));
   }
 }
-window.onLoad = loadNavbar;
+window.addEventListener('load', loadNavbar);
   
