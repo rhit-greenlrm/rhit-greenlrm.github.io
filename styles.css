@@ -6,5 +6,6 @@ body {
 }
 
 .navbar {
-  text-color: #5E4859;
+  /* make links centered at top */
+  background-color: #5E4859;
 }
