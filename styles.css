@@ -8,4 +8,5 @@ body {
 .navbar {
   /* make links centered at top */
   background-color: #5E4859;
+  align-content: center;
 }
