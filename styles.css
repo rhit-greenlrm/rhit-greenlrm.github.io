@@ -12,10 +12,10 @@ body {
 }
 
 header {
-   text-color: #331A2F;
+   color: #331A2F;
    text-align: center;
 }
 
-#me {
+.me {
   align-content: center;
 }
