@@ -19,3 +19,8 @@ header {
 #me {
   align-content: center;
 }
+
+footer {
+  text-align: center;
+  content-align: center;
+}
