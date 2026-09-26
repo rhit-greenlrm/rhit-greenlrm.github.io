@@ -2,10 +2,10 @@
 body {
   background-color: #F5DDE0;
   text-color: #D0637C;
+  color: #D0637C;
 }
 
 #navbar {
-  /* make links centered at top */
   background-color: #EABEC3;
   align-content: center;
   text-align: center;
