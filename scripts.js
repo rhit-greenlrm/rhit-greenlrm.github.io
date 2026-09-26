@@ -3,7 +3,7 @@
 let photoCard = document.getElementById("laser");
 
 photoCard.addEventListener("click", function(){
-   if(photoCard.src = "laser.jpeg"){
+   if(photoCard.src == "laser.jpeg"){
        photoCard.src = "laser2.jpeg";
    } else {
      photoCard.src = "laser.jpeg";
