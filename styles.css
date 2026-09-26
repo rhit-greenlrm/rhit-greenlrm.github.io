@@ -1,4 +1,3 @@
-/*TODO must meet accessability / etc linked in specification*/
 /*referenced: https://forum.squarespace.com/topic/9375-how-do-i-change-the-background-color-of-a-single-page-using-css/ */
 body {
   background-color: #F5DDE0;
@@ -17,10 +16,9 @@ header {
 }
 
 #me {
-  align-content: center;
+  text-align: center;
 }
 
 footer {
   text-align: center;
-  content-align: center;
 }
