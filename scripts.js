@@ -1,6 +1,6 @@
 //inspiration and reference:  https://www.w3schools.com/howto/howto_css_flip_card.asp (this tutorial is for css, so i adapted it into js)
 
-let photoCard = document.getElementByID("laser");
+let photoCard = document.getElementById("laser");
 
 photoCard.addEventListener("click", function(){
    if(photoCard.src = "laser.jpeg"){
